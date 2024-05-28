@@ -7,6 +7,7 @@ ContentfulLivePreview.init({ locale: 'en-US'});
 import { useContentfulLiveUpdates } from '@contentful/live-preview/react';
 import gql from 'graphql-tag';
 
+
 ---
 
 <html lang="en">
@@ -16,7 +17,7 @@ import gql from 'graphql-tag';
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
-        const updated = useContentfulLiveUpdates(originalData);
+        
 
         <ViewTransitions />
     </head>
