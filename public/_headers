@@ -1,3 +1,4 @@
 /*
-  Content-Security-Policy: frame-ancestors *;
-  X-Frame-Options:
+  Content-Security-Policy: frame-ancestors https://app.contentful.com;
+  X-Frame-Options: ALLOW-FROM https://app.contentful.com
+
